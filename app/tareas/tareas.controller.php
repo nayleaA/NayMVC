@@ -16,7 +16,7 @@ switch ($path_components[2]) {
             header("Location: /NayMVC/tareas/login ");
             exit();
         }
-        require_once("./app/tareas/lista/controller/mi-lista.controller.php");
+        require_once("./app/tareas/lista/controller/lista.controller.php");
         break;
 
     case 'registro':
