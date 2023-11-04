@@ -1,3 +1,4 @@
 # anulando el envio de las variables de entorno
 .env
 .env.template
+.template
