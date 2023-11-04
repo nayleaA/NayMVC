@@ -6,10 +6,10 @@
         <hr>
         <ul class="list-group">
             <li class="list-group-item">
-                <a href="/mvc/tareas/registro" class="btn btn-link">Nueva tarea</a>
+                <a href="/NayMVC/tareas/registro" class="btn btn-link">Nueva tarea</a>
             </li>
             <li class="list-group-item bg-primary">
-                <a href="/mvc/tareas" class="btn btn-link text-white">Mis tareas</a>
+                <a href="/NayMVC/tareas" class="btn btn-link text-white">Mis tareas</a>
             </li>
         </ul>
     </div>

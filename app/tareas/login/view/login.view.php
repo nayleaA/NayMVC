@@ -38,9 +38,9 @@
                         <button class="btn btn-primary" type="submit">Login</button>
                     </form>
 
-                    <a class="small text-muted" href="/mvc/tareas/recovery">¿Olvidaste tu contraseña?</a>
+                    <a class="small text-muted" href="/NayMVC/tareas/recovery">¿Olvidaste tu contraseña?</a>
                     <p class="mb-5 pb-lg-2" style="color: #393f81;">
-                        ¿No tienes cuenta? <a href="/mvc/tareas/registro_usuario" style="color: #393f81;">Registrate aquí</a>
+                        ¿No tienes cuenta? <a href="/NayMVC/tareas/registro_usuario" style="color: #393f81;">Registrate aquí</a>
                     </p>
                 </div>
             </div>

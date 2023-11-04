@@ -2,18 +2,21 @@
 class Tarea {
 
     private int $id;
+    private int $idUsuario;
     private string $titulo;
     private string $descripcion;
     private string $status;
 
     public function __construct(
-        int $id = 0,
+        int $id = -1,
+        int $idUsuario,
         string $titulo,
         string $descripcion,
         string $status = "Pendiente"
     )
     {
         $this->id = $id;
+        $this->idUsuario = $idUsuario;
         $this->titulo = $titulo;
         $this->descripcion = $descripcion;
         $this->status = $status;
@@ -21,6 +24,9 @@ class Tarea {
 
     public function getId(): int {
         return $this->id;
+    }
+    public function getIdUsuario(): int {
+        return $this->idUsuario;
     }
 
     public function getTitulo(): string {
