@@ -45,7 +45,7 @@ switch ($path_components[2]) {
             break;
         }
 
-        $tarea->setStatus("Completado");
+        $tarea->setStatus("Revisado");
 
         if ( TareasRepository::getInstance()->editTarea( $tarea ) ) {
             header("Location: /NayMVC/tareas/lista ");

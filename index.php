@@ -21,7 +21,7 @@ $host = $_SERVER['HTTP_HOST'];
    Uso: Puede utilizarse para identificar el host al que se está enviando la sesión y aplicar lógica personalizada según el dominio.
 */
 
-    $maxlifetime = 20; //máximo tiempo de vida de la sesión en segundos
+    $maxlifetime = 60; //máximo tiempo de vida de la sesión en segundos
     $secure = true; //Habilitar seguridad
     $http_only = true;
     $samesite = 'lax';

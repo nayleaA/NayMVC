@@ -56,7 +56,7 @@ if (isset($query_params)) {
                     <option selected hidden></option>
                     <option value="Pendiente">Pendiente</option>
                     <option value="Retrasado">Retrasado</option>
-                    <option value="Completado">Completado</option>
+                    <option value="Revisado">Revisado</option>
                 </select>
                 <label for="status">Status</label>
             </div>
