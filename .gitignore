@@ -2,3 +2,5 @@
 .env
 .env.template
 .template
+.env.template
+*.template
