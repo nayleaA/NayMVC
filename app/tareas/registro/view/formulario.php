@@ -24,16 +24,16 @@ if (isset($query_params)) {
             </div>
             <div class="card-footer">
                 <p class="card-text" style="color: #393f81;">
-                    <a href="/mvc/tareas/log-out" class="btn btn btn-outline-link" title="Cerrar Sesión"><i class="bi bi-box-arrow-left"></i></a>
+                    <a href="/NayMVC/tareas/log-out" class="btn btn btn-outline-link" title="Cerrar Sesión"><i class="bi bi-box-arrow-left"></i></a>
                 </p>
             </div>
         </div>
         <ul class="list-group">
             <li class="list-group-item bg-primary">
-                <a href="/mvc/tareas/registro" class="btn btn-link text-white">Nueva tarea</a>
+                <a href="/NayMVC/tareas/registro" class="btn btn-link text-white">Nueva tarea</a>
             </li>
             <li class="list-group-item">
-                <a href="/mvc/tareas" class="btn btn-link">Mis tareas</a>
+                <a href="/NayMVC/tareas" class="btn btn-link">Mis tareas</a>
             </li>
         </ul>
     </div>
