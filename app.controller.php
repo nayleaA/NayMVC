@@ -13,6 +13,10 @@ switch ($path_components[1]) {
         require_once("./app/tareas/tareas.controller.php");
         break;
     
+    case 'app-paises':
+        require_once("./app/paises/paises.controller.php");
+        break;
+        
     default:
         header("HTTP/1.1 404 Not Found");
         break;

@@ -7,12 +7,12 @@
         private mysqli $mysqli;
 
         private function __construct() {
-           /* $host = $_ENV['DB_HOST'];
+            $host = $_ENV['DB_HOST'];
             $user = $_ENV['DB_USER'];
             $password = $_ENV['DB_PASSWORD'];
             $database = $_ENV['DB_DATABASE'];
-            $this->mysqli = new mysqli($host, $user, $password, $database);*/
-            $this->mysqli = new mysqli("localhost", "root", "", "tudu");
+            $this->mysqli = new mysqli($host, $user, $password, $database);
+          //  $this->mysqli = new mysqli("localhost", "root", "", "tudu");
         }
         
         public static function getInstance(): TareasRepository {
