@@ -1,7 +1,7 @@
 <?php
 
     if ( !isset($path_components[2]) )
-        $path_components[2] = 'por-continente';
+        $path_components[2] = '';
 
     switch ($path_components[2]) {
         case 'por-continente':
@@ -17,7 +17,7 @@
             break;
 
         default:
-            header("Location: /NayMVC/paises/por-continente");
+            header("Location: /NayMVC/app-paises/por-continente");
             break;
     }
 ?>
