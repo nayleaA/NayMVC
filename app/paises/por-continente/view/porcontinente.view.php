@@ -19,6 +19,7 @@
                 <img src="https://flagcdn.com/uz.svg" alt="weas" class="card-img-top">
                 <div class="card p-1 mt-2 border-secondary">
                     <h3 class="text-center">🇺🇿 Uzbekistan</h3>
+                    <hr>
                     <div class="d-flex justify-content-between">
                         <div><strong>Official:</strong></div>
                         <div class="text-end">Republic of Uzbekistan</div>

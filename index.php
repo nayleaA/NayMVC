@@ -21,11 +21,11 @@ $host = $_SERVER['HTTP_HOST'];
    Uso: Puede utilizarse para identificar el host al que se está enviando la sesión y aplicar lógica personalizada según el dominio.
 */
 
-    $maxlifetime = 60; //máximo tiempo de vida de la sesión en segundos
+  /*  $maxlifetime = 60; //máximo tiempo de vida de la sesión en segundos
     $secure = true; //Habilitar seguridad
     $http_only = true;
     $samesite = 'lax';
-    $host = $_SERVER['HTTP_HOST'];
+    $host = $_SERVER['HTTP_HOST'];*/
 
 /* ------------------------DOCUMENTACION---------------------------------------------------
  session_set_cookie_params() es una función de PHP utilizada para configurar los parámetros de las cookies de sesión.
@@ -50,7 +50,7 @@ $host = $_SERVER['HTTP_HOST'];
  */
 
  // Configuración de cookies de sesión
-    session_set_cookie_params([
+   /* session_set_cookie_params([
         'lifetime'  => $maxlifetime,
         'path'      => './',
         'domain'    => $host,
@@ -61,8 +61,10 @@ $host = $_SERVER['HTTP_HOST'];
 
     session_start([
         //'cookie_lifetime' => 60*60*4
-    ]);
+    ]);*/ 
 
+    session_start();
+    
     /*Comprueba si una sesión de usuario está activa.
       @return bool Devuelve true si la sesión de usuario está activa y el 'userId' está definido y no es nulo; de lo contrario, devuelve false.
     */
