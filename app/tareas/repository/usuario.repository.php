@@ -82,7 +82,7 @@
 
         public function changeUsuarioPassword(Usuario $usuario): bool {
             $this->mysqli->begin_transaction();
-            $query = "UPDATE usuarios SET password = ? WHERE id = ?";
+            $query = "UPDATE usuarios SET password = ? WHERE idUsuario = ?";
 
             $sentencia = $this->mysqli->prepare($query);
             $sentencia->bind_param( "si", $usuario->getPassword(), $usuario->getId() );

@@ -27,6 +27,9 @@
             $this->usuario = $usuario;
         }
 
+        public function setId( string $id ): void {
+            $this->id = $id;
+        }
         public function getPassword(): string {
             return $this->password;
         }
