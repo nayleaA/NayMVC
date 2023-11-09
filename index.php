@@ -94,6 +94,23 @@ $host = $_SERVER['HTTP_HOST'];
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+    content="Descripcion de mi página web entre mas larga mejor"
+    />
+    <meta name="keywords" content="tareas, paises, mamahuevo">
+
+     <!--Rebots evita que caigamos en dark web, ayuda a la indexacion tiene 4 valores posibles 
+    1-index (para no caer en la darkweb)
+    2- no index (que no lo puedan encontrar o que no lo muestre)
+    3- follow (permite navegar hasta el sitio original cuando son incrustados)
+    4-nofollow (lo contrario a follow)
+    configuracion:
+    1-no archive (no cache, nunca cargar de cache, como si fuera la primera vez que lo carga)
+    2.nosnippet (solo el sitio con la url y si acaso el titulo, no muestra toda la informacion del sitio)Permite hacer configuracion de varios tipos separados por comas-->
+     <meta name="robots" content="index,follow">
+
+     <meta name="autor" content="Nay Nay">
+     <meta name="copyright" content="@SAEN">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -127,6 +144,8 @@ $host = $_SERVER['HTTP_HOST'];
 
 
         $path_components = explode('/',  $path_url);
+
+       // $path_index=0;
 
         // echo json_encode($path_components);
 
