@@ -142,19 +142,7 @@ $host = $_SERVER['HTTP_HOST'];
             parse_str($url_components['query'], $query_params);
         }
 
-
         $path_components = explode('/',  $path_url);
-
-       // $path_index=0;
-
-        // echo json_encode($path_components);
-
-        // echo "
-        //         <br>
-        //         El Recurso solicitado es: $path_url <br>
-        //         Esta petición fue realizada a través de: $request_method <br>
-        //         Los query params recibidos son: $query_params['perro']
-        //     ";
 
         require_once("./app.controller.php");
 
