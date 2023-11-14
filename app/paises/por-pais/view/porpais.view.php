@@ -10,16 +10,19 @@
 
     <!-- Container -->
     <section class="col">
-        <div class="col-12">
-            <h3>Paises</h3>
-            <hr>
-            <form action="" method="post">
+        <h3 class="col-12 text-center">Paises</h3>
+        <hr class="col-12">
+        <input type="text" 
+            class="col-12 form-control" 
+            value=""
+            placeholder="Pais"
+            onkeypress = "onKeyPress(event)" autofocus>
 
-                <div class="form-floating mb-3">
-                    <input class="form-control" type="text" name="country" id="country" placeholder=" escribe un nombre de un  pais" required>
-                    <label class="form-label" for="usuario">Pais</label>
-                </div>
-            </form>
+        <hr class="col-12">
+        <div id="paises-container" class="col-12 row justify-content-between">
+
         </div>
     </section>
 </main>
+<script src="/NayMVC/app/paises/por-pais/controller/porpais.controller.js"></script>
+<script src="/NayMVC/app/paises/helper/renderPaises.helper.js"></script>
