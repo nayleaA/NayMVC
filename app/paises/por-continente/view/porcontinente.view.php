@@ -9,7 +9,7 @@
     </section>
 
     <section class="col">
-        <div class="col-12">
+        <div class="col-12 text-center">
             <h3>Paises</h3>
             <hr>
         </div>
